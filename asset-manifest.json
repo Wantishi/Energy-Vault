@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/energy-vault/static/css/main.8538ead1.css",
-    "main.js": "/energy-vault/static/js/main.99b9e507.js",
-    "static/js/787.5bb939bf.chunk.js": "/energy-vault/static/js/787.5bb939bf.chunk.js",
-    "index.html": "/energy-vault/index.html",
-    "main.8538ead1.css.map": "/energy-vault/static/css/main.8538ead1.css.map",
-    "main.99b9e507.js.map": "/energy-vault/static/js/main.99b9e507.js.map",
-    "787.5bb939bf.chunk.js.map": "/energy-vault/static/js/787.5bb939bf.chunk.js.map"
+    "main.css": "/Energy-Vault/static/css/main.8538ead1.css",
+    "main.js": "/Energy-Vault/static/js/main.924f4a6f.js",
+    "static/js/787.5bb939bf.chunk.js": "/Energy-Vault/static/js/787.5bb939bf.chunk.js",
+    "index.html": "/Energy-Vault/index.html",
+    "main.8538ead1.css.map": "/Energy-Vault/static/css/main.8538ead1.css.map",
+    "main.924f4a6f.js.map": "/Energy-Vault/static/js/main.924f4a6f.js.map",
+    "787.5bb939bf.chunk.js.map": "/Energy-Vault/static/js/787.5bb939bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8538ead1.css",
-    "static/js/main.99b9e507.js"
+    "static/js/main.924f4a6f.js"
   ]
 }
