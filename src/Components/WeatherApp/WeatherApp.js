@@ -28,7 +28,7 @@ const WeatherApp = () => {
 			const newData = []
 			for (let j = 0; j < weatherData.length; j++) {
 				let temperatureTrend = ""
-				if (j === 0) {
+				if (j === 0 || weatherData[j].changeTemp === 0) {
 					temperatureTrend = "same"
 				} else if (
 					Math.abs(weatherData[j].changeTemp) >
@@ -39,7 +39,7 @@ const WeatherApp = () => {
 					Math.abs(weatherData[j].changeTemp) ===
 					Math.abs(weatherData[j - 1].changeTemp)
 				) {
-					temperatureTrend = "same"
+					temperatureTrend = "single"
 				} else {
 					temperatureTrend = "single"
 				}

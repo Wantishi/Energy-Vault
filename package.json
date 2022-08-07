@@ -1,7 +1,7 @@
 {
 	"name": "energy-vault",
 	"version": "0.1.0",
-	"homepage": "https://wantishi.github.io/energyVault",
+	"homepage": "https://Wantishi.github.io/Energy-Vault",
 	"private": true,
 	"dependencies": {
 		"@emotion/react": "^11.10.0",
