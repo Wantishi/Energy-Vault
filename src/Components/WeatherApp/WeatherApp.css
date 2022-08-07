@@ -1,0 +1,101 @@
+.weatherWrapper {
+	padding: 40px 80px;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.hourBlock {
+	position: relative;
+	padding: 15px 20px;
+	min-width: 160px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	margin: 20px;
+	width: 200px;
+	/* background-color: #fff !important; */
+	background-color: rgb(29, 37, 58);
+	color: #fff;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.content {
+	position: relative;
+	z-index: 100;
+}
+.time {
+	margin: 0;
+}
+
+.tempWindWrap {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.thermostatIcon {
+	color: #edbd18;
+}
+.tempValue {
+	margin: 0;
+	font-size: 0.875rem;
+	font-weight: 600;
+}
+
+.windIcons {
+	color: #7fe6f3;
+}
+.navArrow {
+	width: 1rem !important;
+	margin-left: 5px;
+}
+
+.forecastWrap {
+	display: flex;
+	align-items: center;
+}
+.picture {
+	border-radius: 6px;
+	border: 1px solid #294763;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+.forecast {
+	font-size: 0.75rem;
+	margin: 0;
+	text-align: left;
+}
+
+.N {
+	transform: rotate(0deg);
+}
+.NE {
+	transform: rotate(45deg);
+}
+.E {
+	transform: rotate(90deg);
+}
+.SE {
+	transform: rotate(135deg);
+}
+.S {
+	transform: rotate(180deg);
+}
+.SW {
+	transform: rotate(225deg);
+}
+.W {
+	transform: rotate(-90deg);
+}
+.NW {
+	transform: rotate(-45deg);
+}
